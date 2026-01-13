@@ -9,7 +9,7 @@ stage ("test"){
 steps{echo "testing"
 }}
 stage ("deploy"){
-step {echo "deploying"
+steps {echo "deploying"
 }}
 }
 }
